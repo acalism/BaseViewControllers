@@ -277,20 +277,6 @@ extension BaseViewController {
 
 
 
-// MARK: - Navigation
-
-extension UIViewController {
-    /// 返回按钮不显示任何文字
-    func hideBackBarButtonTitle() {
-        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
-    }
-
-    func dismissButtonTapped() {
-        dismiss(animated: true, completion: nil)
-    }
-}
-
-
 //fileprivate let animationDuration: TimeInterval = 0.5
 //
 //extension UIViewController {
